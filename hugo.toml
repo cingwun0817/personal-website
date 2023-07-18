@@ -1,4 +1,66 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://cingwun0817.github.io/personal-website/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'ananke'
+title = 'L1O'
+theme = 'hugo-coder'
+
+paginate = 20
+
+disqusShortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Leo Wang"
+  info = "Software & Data Engineer"
+  description = "Leo Wang personal website"
+  keywords = "blog,developer,personal"
+  avatarurl = "https://media.licdn.com/dms/image/C5603AQFIO_sYYrYwMA/profile-displayphoto-shrink_200_200/0/1635935386207?e=1695254400&v=beta&t=rWi7qPA2SLEu3AzArYvWvoKE4ruJX5liNkntb_GF0x8"
+  #gravatar = "cingwun0817@gmail.com"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2023
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/cingwun0817"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 4
+  url = "https://www.linkedin.com/in/cingwun0817/"
+
+# Menu links
+[[menu.main]]
+  name = "About"
+  weight = 1
+  url = "about/"
+[[menu.main]]
+  name = "Projects"
+  weight = 2
+  url  = "posts/"
+[[menu.main]]
+  name = "Blog"
+  weight = 3
+  url = "posts/"
