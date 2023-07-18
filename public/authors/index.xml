@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on L1O</title>
+    <link>https://cingwun0817.github.io/personal-website/authors/</link>
+    <description>Recent content in Authors on L1O</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://cingwun0817.github.io/personal-website/authors/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
